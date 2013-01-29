@@ -1,5 +1,39 @@
 .img-title-text {
 	position: absolute; 
-	top:20px; 
-	background:#FFF;
+	top:180px; 
+	background:rgba(68, 59, 59, 0.52);
+}
+.img-title-text h4 {
+color: #fff;
+}
+.img-time-text {
+	color: #fff;
+	 position: absolute; 
+	 top:160px; 
+	 background:rgb(245, 20, 20);
+}
+
+.normal-thread{
+
+	padding-top: 10px;
+}
+.normal-thread img{
+
+	max-width: 160px; 
+	float:left; 
+	display: inline;
+	 padding-right: 10px;
+
+}
+.normal-thread h4{
+
+height: 40px;
+margin: 0px;
+margin-bottom: 5px;
+
+}
+.normal-thread p{
+
+height: 40px;
+
 }
