@@ -76,7 +76,7 @@
 					<li><a href="#">{Category}</a> <span class="divider">/</span></li>
 
 					<li class="active">{subcategory}</li>
-					<section id="article-stream-search" style="float: right; margin-top:-5px; margin-right: -7px">
+					<section id="article-stream-search" class="search-box">
 						<form action="search" method="GET" id="article-stream-search-form">
 							<form class="form-search">
 								<input type="text" class="input-medium search-query">
@@ -96,7 +96,7 @@
 
 						
 
-						<article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
+						<article id="post-1">
 							<header class="entry-header">
 								<h1 class="entry-title">Hello world!</h1>
 
@@ -106,9 +106,8 @@
 								</header><!-- .entry-header -->
 
 								<div class="entry-content">
-									<img src="img/Test.jpg" class="img-polaroid" style="width:100%">
-
-								</img>
+									<div class="img-polaroid"> <img src="img/Test.jpg"></img></div>
+									
 								<p>Welcome to We Love Start Up. This is your first post. Edit or delete it, then start blogging!
 									Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
 									Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
@@ -121,8 +120,8 @@
 									This entry was posted in <a href="http://localhost/wordpress/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a> by <a href="http://localhost/wordpress/?author=1">{Jon Mitchell}</a>. 		<span class="edit-link"><a class="#" title="Edit Post">Edit</a></span>
 
 									<div class="article-author-container">
-										<div class="photo">
-											<img src="http://readwrite.com/files/styles/150_140sc/public/fields/jonMitchell.jpg" style="max-width: 140px; float:right; display: inline; margin:5px" alt="Jon Mitchell">
+										<div>
+											<img src="http://readwrite.com/files/styles/150_140sc/public/fields/jonMitchell.jpg" class="img-profile-avatar" alt="Jon Mitchell">
 										</div>
 
 										<div class="text">
@@ -137,58 +136,64 @@
 									</div>
 								</footer><!-- .entry-meta -->
 							</article>
+							<div class="entry-featured">
+								<h4>Featured Articles:</h4>
 
-							<h4>Featured Articles:</h4>
-							<div class="span12">
-								<ul class="row">
-									<li class="span3">
+								<div class="row-fluid">
+									<div class="span12">
+										<ul style="list-style-type: none; margin: 0px;">
+											<li class="span3">
 
-										<div class="thumbnail">
-											<img data-src="holder.js/300x200"  style="width: 100%; height: 200px;" src="img/images.jpg">
-											<div class="caption">
-												<h5>Thumbnail label</h5>
-												<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+												<div class="thumbnail">
+													<img  src="img/images.jpg">
+													<div class="caption">
+														<h5>{40}Thumbnail ladf vádfsadfsdf sadfsadfsadf</h5>
+														<p>{110}Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
 
-											</div>
-										</div>
-									</li>
-									<li class="span3">
+													</div>
+												</div>
+											</li>
+											<li class="span3">
 
-										<div class="thumbnail">
-											<img data-src="holder.js/300x200"  style="width: 100%; height: 200px;" src="img/images.jpg">
-											<div class="caption">
-												<h5>Thumbnail label</h5>
-												<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+												<div class="thumbnail">
+													<img  src="img/images.jpg">
+													<div class="caption">
+														<h5>{40}Thumbnail ladf vádfsadfsdf sadfsadfsadf</h5>
+														<p>{110}Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
 
-											</div>
-										</div>
-									</li>
-									<li class="span3">
+													</div>
+												</div>
+											</li>
+											<li class="span3">
 
-										<div class="thumbnail">
-											<img data-src="holder.js/300x200"  style="width: 100%; height: 200px;" src="img/images.jpg">
-											<div class="caption">
-												<h5>Thumbnail label</h5>
-												<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+												<div class="thumbnail">
+													<img  src="img/images.jpg">
+													<div class="caption">
+														<h5>{40}Thumbnail ladf vádfsadfsdf sadfsadfsadf</h5>
+														<p>{110}Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
 
-											</div>
-										</div>
-									</li>
-									<li class="span3">
+													</div>
+												</div>
+											</li>
+											<li class="span3">
 
-										<div class="thumbnail">
-											<img data-src="holder.js/300x200"  style="width: 100%; height: 200px;" src="img/images.jpg">
-											<div class="caption">
-												<h5>Thumbnail label</h5>
-												<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+												<div class="thumbnail">
+													<img  src="img/images.jpg">
+													<div class="caption">
+														<h5>{40}Thumbnail ladf vádfsadfsdf sadfsadfsadf</h5>
+														<p>{110}Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
 
-											</div>
-										</div>
-									</li>
-								</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+
+
+								</div>
 
 							</div>
-
+							
 							<div class="entry-bottom">
 								<div class="span3">
 									<div class="entry-social-connect">
@@ -226,7 +231,7 @@
 						
 						<div class="span4">
 							<!--Body content-->
-							<ul class="nav nav-tabs">
+							<ul class="nav nav-tabs" style="margin-top: 10px;">
 								<li class="active">
 									<a href="#">Popular</a>
 
@@ -239,30 +244,34 @@
 							<section>
 
 								<div>
-									<img src="img/images.jpg" style="max-width: 75px; float:left; display: inline; margin:5px"></img>
-									<h6>Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</h6>
+									<img src="img/images.jpg" class="img-popular-post"></img>
+									<h6><a href="#">Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</a></h6>
 
 
 								</div>
 								<div>
-									<img src="img/images.jpg"  style="max-width: 75px; float:left; display: inline; margin:5px"></img>
-									<h6>Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</h6>
+									<img src="img/images.jpg" class="img-popular-post"></img>
+									<h6><a href="#">Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</a></h6>
+
+
 								</div>
 								<div>
-									<img src="img/images.jpg"  style="max-width: 75px; float:left; display: inline; margin:5px"></img>
-									<h6>Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</h6>
+									<img src="img/images.jpg" class="img-popular-post"></img>
+									<h6><a href="#">Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</a></h6>
+
+
 								</div>
 								<div>
-									<img src="img/images.jpg"  style="max-width: 75px; float:left; display: inline; margin:5px"></img>
-									<h6>Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</h6>
+									<img src="img/images.jpg" class="img-popular-post"></img>
+									<h6><a href="#">Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</a></h6>
+
+
 								</div>
 								<div>
-									<img src="img/images.jpg"  style="max-width: 75px; float:left; display: inline; margin:5px"></img>
-									<h6>Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</h6>
-								</div>
-								<div>
-									<img src="img/images.jpg"  style="max-width: 75px; float:left; display: inline; margin:5px"></img>
-									<h6>Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</h6>
+									<img src="img/images.jpg" class="img-popular-post"></img>
+									<h6><a href="#">Why Microsoft's Earnings Report Doesn't Reveal How Windows 8 Is Doing</a></h6>
+
+
 								</div>
 							</section>
 							<img src="img/friendfacebook.png"></img>
