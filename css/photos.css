@@ -1,0 +1,163 @@
+body{width:810px; margin: 0 auto;  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.header-item-nozza{font-size:18px; font-weight:bold;color:#fff8da;margin-left: 40px;
+  margin-top: 250px;  width:810px; height:45px;}
+  .header-item-nozza li{list-style:none; float:left;}
+  .header-item-nozza li a{text-decoration:none; color:#fff8da; margin-right:5px; margin-left:5px;}
+  .header-inner-nozza {  padding-left: 8px; }
+  .header-item-nozza li a:hover{color:#c99c66;}
+  .header-item-nozza .actived a{color:#c99c66;}
+
+  .footer-container {
+    height: 50px;
+    min-width: 810px;
+    margin-top: 40px;
+  }
+  .btn-join-now{margin-left: 75px;  margin-top: 220px; }
+
+
+  .list-image-item {float:left; margin-top:20px; margin-right:45px; font-family:Arial, Helvetica, sans-serif;}
+  .list-image-inn{margin-left:85px;}
+  .list-image-item .image img{width: 170px; height:106.5px; margin-top:3px; margin-left:3px;border: solid white 5px; box-sizing: border-box;}
+  .list-image-item .avatar {margin-top: 10px;margin-left: 25px;float: left;margin-right: 5px}
+  .list-image-item .avatar img{ width:50px; height:50px; border: 1px solid #fff;}
+  .list-image-item .fbname{font-size:9px; color:#000; margin-top:12px; padding-bottom:2px;}
+  .list-image-item .vote{font-size:9px; color:#000; padding-bottom:2px;}
+  .list-image-item .visit{font-size:9px; color:#000; margin-left:69px;}
+  .phantrang {float:left;margin-right: 27px;margin-top: 20px;}
+  .phantrang .pgTracker_active {color:#000;  margin-right: 5px;}
+  .phantrang .pgTracker_deactive {color:#7f1618; text-decoration:none; margin-right: 5px;}
+  .phantrang .page_link {color:#7f1618; text-decoration:none; margin-right: 5px;}
+  .phantrang a.curPage{color:#000;}
+  .dstpbtn{position:absolute;right:8px; top: 23px;}
+  .image-thumnail-homepage{ margin-top: 129px;}
+  .image-thumnail-homepage img{width: 115px; height:80px;}
+  .content {margin-top:-140px; font-family:Arial, Helvetica, sans-serif;}
+  .boximg {text-align: center; padding-top:170px;}
+
+  .the-le-css {padding-top: 10px; margin-left: 65px;  width:350px; height:335px; float:left; margin-right:20px;}
+  .the-le-css .left-side{float: left; width: 350px; margin-right:10px;}
+  .the-le-css .left-side .content-right-side{margin-right: 55px;}
+  .the-le-css  .content-body div#scrollbar {
+    display:block; /* initially display:none; to hide from incapable */
+  }
+
+  .the-le-css  .content-body div#wn { 
+    position:relative;
+    float:left;
+    font-family:Arial, Helvetica;
+    font-size:12px;
+    color:#000;
+    text-align:justify;
+  }
+  #scroll-content {
+    width:350px; height: 340px;
+  }
+
+  .the-le-css  .content-body div#scrollbar { 
+    position:relative;
+    width:5px; height: 190px; float: right;
+    font-size:1px;  /* so no gap or misplacement due to image vertical alignment */
+  }
+  .the-le-css  .content-body div#track { 
+    position:absolute; left:0px; top: 0px;
+    width:5px; height: 350px;
+    background-color: #eacf9f;
+    background-repeat:repeat-y;
+  }
+  .the-le-css  .content-body div#dragBar {
+    position:absolute; left:0px !important; top:10px;
+    width: 5px; height: 40px;
+    background-color: #bf8141; cursor: pointer;
+  }  
+  .the-le-css  .content-body div#up {}  
+  .the-le-css .content-body div#down {}
+  .the-le-css .content-left-side{margin-top:10px;margin-left: 10px;}
+  .the-le-title {text-align: center; color:#7b0000; font-weight:bold; padding-top:55px;}
+  .bg-image-details{margin-top:14px;}
+  .img-details { font-family:Arial, Helvetica, sans-serif;color:#000; font-size:12px;background:url(images/bg-img-details.jpg) no-repeat; width:790px; height:1068px;padding-left: 90px;padding-top: 20px; }
+  .img-details .image {float:left; margin-right:10px;}
+  .img-details .image img{ width:400px; height:250px;margin-top: 6px;border: solid white 15px; box-sizing: border-box;}
+  .img-details .avatar img{ width:50px; height:50px; border: 1px solid #fff;}
+  .img-details .avatar {float:left; margin-top:5px; margin-right: 5px;}
+  .img-details .fbname { margin-top:5px; padding-bottom:3px;}
+  .img-details .visit { margin-left:625px; padding-top:3px;}
+  .img-details .message {font-size:12px;margin-top:20px;float:left; width:220px; font-family:Arial, Helvetica, sans-serif;}
+  .fb-comments { width:529px; margin-top:25px; background:#fffceb; padding-left:20px; padding-top:20px;}
+  .header-item li a:hover{color:#c99c66;}
+  .header-item .actived a{color:#c99c66;}
+
+
+
+  .image_carousel {
+    padding: 15px 0 15px 40px;
+    position: relative;
+  }
+  .image_carousel img {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 9px;
+    margin: 7px;
+    display: block;
+    float: left;
+  }
+  a.prev, a.next {
+    background: url(../images/miscellaneous_sprite.png) no-repeat transparent;
+    width: 45px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 85px;
+  }
+  a.prev {      left: -22px;
+    background-position: 0 0; }
+    a.prev:hover {    background-position: 0 -50px; }
+    a.prev.disabled { background-position: 0 -100px !important;  }
+    a.next {      right: -22px;
+      background-position: -50px 0; }
+      a.next:hover {    background-position: -50px -50px; }
+      a.next.disabled { background-position: -50px -100px !important;  }
+      a.prev.disabled, a.next.disabled {
+        cursor: default;
+      }
+
+      a.prev span, a.next span {
+        display: none;
+      }
+      .pagination {
+        text-align: center;
+      }
+      .pagination a {
+        background: url(../images/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+        width: 15px;
+        height: 15px;
+        margin: 0 5px 0 0;
+        display: inline-block;
+      }
+      .pagination a.selected {
+        background-position: -25px -300px;
+        cursor: default;
+      }
+      .pagination a span {
+        display: none;
+      }
+      .clearfix {
+        float: none;
+        clear: both;
+      }
+
+
+      .input_info ul{
+        list-style-type: none;
+        width: 270px;
+        padding-left: 10px;
+         margin-left: 290px; 
+         margin-top: 110px;
+
+      }
+
+      .input_info li{
+        color: white;
+
+      }
